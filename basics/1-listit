@@ -1,3 +1,2 @@
-shell
 #!/bin/bash
-ls
+$ wc -l file
