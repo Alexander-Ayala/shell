@@ -1,4 +1,4 @@
-0-iam_betty cambia de ususario actual a betty
+0-iam_betty cambia de ususario actual a betty.
 1-who_am_i imprime el nombre de usuario efectivo del usuario actual
 2-groups imprime todos los grupos de los que forma parte el usuario actual
 3-new_owner cambia el propietario del archivo hola al usuario betty.
