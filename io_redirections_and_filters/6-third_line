@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo cat -n --lines=[3]NUM iacta
+sudo cat -nl --lines=[3]NUM iacta
