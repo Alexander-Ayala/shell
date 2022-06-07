@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n "+$1" iacta | head -n "$((3-1+1))"
+head -nl 3 iacta
