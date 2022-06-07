@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo cat -nl --lines=[3]NUM iacta
+tail -n "+$1" iacta | head -n "$((3-1+1))"
