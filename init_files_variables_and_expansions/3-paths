@@ -1,2 +1,2 @@
 #!/bin/bash
- find . | PATH="$PATH:/wc"
+echo $PATH| tr ":" "\n" | wc -l
