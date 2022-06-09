@@ -1,2 +1,2 @@
 #!/bin/bash
-find . PATH | wc
+ find . | PATH="$PATH:/wc"
