@@ -2,7 +2,7 @@
 #muestra la hora y seguido los 50 minutos
 h="0"
 m="1"
-while [ $h -lt 12 ]
+while [ $h -lt 13 ]
 do
     echo Hour: $h
     while [ $m -lt 60 ]
