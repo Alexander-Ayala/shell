@@ -2,9 +2,11 @@
 #imprime 8 lineas Best School despues hi y luego Best School total de 10
 while ((i -lt 10))
 do
-    if [$i -le 9))
+    if [ $i -le 9 ]
     then
 	echo "Best School"
     else
 	echo "Hi"
     fi
+done
+
