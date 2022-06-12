@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #imprima 10 veces Best School
-i=0
+i=1
 until [ $i -lt 10 ]
 do
     echo "Best School"
