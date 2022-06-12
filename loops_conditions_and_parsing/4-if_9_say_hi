@@ -3,11 +3,11 @@
 i="0"
 while [ $i -lt 10 ]
 do
-    if [ $i == 9 ]
+    if [ $i == 8 ]
     then
-	echo "Best School"
-    else
 	echo "Hi"
+    else
+	echo "Best School"
     fi
     i=$((i+1))
 done
