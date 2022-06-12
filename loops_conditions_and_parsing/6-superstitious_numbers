@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #while case Bash script that displays numbers from 1 to 20 and
-i="0";
+i="0"
 while [ $i -lt 7 ]
 do
 echo $i
