@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #imprime 8 lineas Best School despues hi y luego Best School total de 10
+i="0"
 while (($i<10))
 do
     if [ $i==9 ]
