@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 #bucle continua hasta que llega a 10
-while ((i<10)); do echo "Best School" "((++i))"; done
+while ((i<10))
+do
+    echo "Best School"
+    ((++i))
+done
