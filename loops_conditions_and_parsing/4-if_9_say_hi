@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #imprime 8 lineas Best School despues hi y luego Best School total de 10
 i="0"
-while [ i -lt 10 ]
+while [ $i -lt 10 ]
 do
     if [ $i == 9 ]
     then
@@ -9,5 +9,6 @@ do
     else
 	echo "Hi"
     fi
+    i=$((i+1))
 done
 
