@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 #imprime 8 lineas Best School despues hi y luego Best School total de 10
-while ((i<9))
+while ((i<10))
 do
     if ((i != 9))
     then
 	echo "Best School"
     else
 	echo "Hi"
-	done
+	fi
