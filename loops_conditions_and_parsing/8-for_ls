@@ -1,1 +1,3 @@
 #!/usr/bin/env bash
+#lista directorio actual por nombre
+for [find -print | ls -X]
