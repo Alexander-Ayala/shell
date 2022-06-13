@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 #lista directorio actual por nombre
-for [find -print | ls -X]
+for i in ls
+do
+    echo "$i | cut -d "-" -f2"
+done
