@@ -3,5 +3,5 @@
 i="/etc/passwd"
 while IFS=: read -r f1 f2 f3 f4 f5 f6 f7
 do 
- echo "User $f1 use $f7 shell and stores files in $f6 directory."
-done < i
+ echo "The user $f1 is part of the $f2 gang, lives in $f3 and rides $f4. $f5's place is protected by the passcode $f6, more info about the user here: $f7"
+done < $i
