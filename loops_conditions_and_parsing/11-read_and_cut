@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 #muestra el contenido username, user id, home directory
-find . username user id Home directory path | /etc/passwd
-input="/etc/passwd"
+i="/etc/passwd"
 while IFS= read -r line
 do
     echo "$line" | cut -d':' --fields=1,3,6
-done < "$input"
+done < "$i"
